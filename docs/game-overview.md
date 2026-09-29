@@ -170,17 +170,16 @@ gold per completed nil bid. The award is copied into both wallets, not split.
 Negative scoring does not remove saved gold. Unspent gold persists within the
 run.
 
-Sigils may explicitly grant personal bonus gold. Award it
-to the controller identified when the effect triggers; do not also credit the
-partner.
+Sigils may explicitly grant personal bonus gold. Award it to the controller
+identified when the effect triggers; do not also credit the partner.
 
 At a shop, buy at most one of three offered sigils or skip. Purchasing a sigil
 permanently adds it to that player's collection for the run. A collection has at
 most 13 sigils.
 
 Prices, starting gold, and offer probabilities need a balance table; the
-starting wallet should afford a starter offer. Paid rerolls refresh the three offers without resetting the
-one-purchase limit.
+starting wallet should afford a starter offer. Paid rerolls refresh the three
+offers without resetting the one-purchase limit.
 
 An income build is useful only if extra gold changes which sigil can be afforded
 or, with rerolls enabled, which offers can be found. Extra gold cannot buy a
@@ -192,8 +191,9 @@ another meaningful purchase are usually poor investments.
 ### Engraving and persistence
 
 Every round, each owned sigil is engraved on one card in its owner's newly dealt
-hand. A card has **at most one engraving**. Affinity prefers a particular rank
-or suit when possible; remaining placements are random.
+hand. A card has **at most one engraving**. A sigil with **Affinity** has
+specific rules on how it gets engraved. Affinity prefers a particular rank or
+suit when possible; remaining placements are random.
 
 **Proposed placement procedure:** place affinity sigils first, randomizing order
 where they compete for eligible cards, then assign other sigils to remaining
